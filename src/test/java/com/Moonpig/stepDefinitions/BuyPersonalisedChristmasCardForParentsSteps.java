@@ -23,6 +23,6 @@ public class BuyPersonalisedChristmasCardForParentsSteps {
     }
     @Then("I click on Cards For Parents")
     public void i_click_on_cards_for_parents() {
-       
+
     }
 }
