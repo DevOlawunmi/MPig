@@ -1,12 +1,15 @@
 package com.Moonpig.testRunner;
 
-import static org.junit.Assert.assertTrue;
+import io.cucumber.junit.Cucumber;
+import io.cucumber.junit.CucumberOptions;
+import org.junit.runner.RunWith;
 
-import org.junit.Test;
-
-/**
- * Unit test for simple App.
- */
+@RunWith(Cucumber.class)
+@CucumberOptions(
+        features = {"src/test/java/com/Moonpig/features"},
+        plugin ={"pretty","json:target/report.json","de.monochromata.cucumber.report.PrettyReports:target/pretty-cucumber"},
+        glue = {"com/Moonpig/stepDefinitions"}
+)
 public class AppTest 
 {
 
