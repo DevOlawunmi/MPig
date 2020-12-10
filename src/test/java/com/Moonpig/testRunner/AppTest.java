@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = {"src/test/java/com/Moonpig/features"},
         plugin ={"pretty","json:target/report.json","de.monochromata.cucumber.report.PrettyReports:target/pretty-cucumber"},
-        glue = {"com/Moonpig/stepDefinitions"}
+        glue = {"com/Moonpig/hooks","com/Moonpig/stepDefinitions"}
 )
 public class AppTest 
 {
