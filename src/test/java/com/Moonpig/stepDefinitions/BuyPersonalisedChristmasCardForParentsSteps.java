@@ -1,13 +1,14 @@
 package com.Moonpig.stepDefinitions;
 
+import com.Moonpig.pages.BasePage;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class BuyPersonalisedChristmasCardForParentsSteps {
+public class BuyPersonalisedChristmasCardForParentsSteps extends BasePage {
     @Given("I navigate to moonpig homepage")
     public void i_navigate_to_moonpig_homepage() {
-
+launchURL();
     }
 
 

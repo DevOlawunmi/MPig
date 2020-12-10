@@ -39,7 +39,7 @@ public class Browsers extends DriverLibrary {
             break;
             case "headless": driver = initHeadlessChrome();
             break;
-            default:initHeadlessChrome();
+            default: driver= initHeadlessChrome();
 
         }
         driver.manage().window().maximize();
