@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05ed976f-eba8-47b1-a2ee-b620fa1df7e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/Moonpig/pages/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/Moonpig/pages/ChristmasPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Moonpig/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Moonpig/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Moonpig/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Moonpig/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Moonpig/stepDefinitions/BuyPersonalisedChristmasCardForParentsSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Moonpig/stepDefinitions/BuyPersonalisedChristmasCardForParentsSteps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607657782676</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Homepage added">
+      <created>1607661441997</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1607661441997</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -154,32 +162,37 @@
     <MESSAGE value="Hook class added" />
     <MESSAGE value="URL successfully launched" />
     <MESSAGE value="Basepage added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Basepage added" />
+    <MESSAGE value="Homepage added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homepage added" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1607657782009">
+    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1607661441496">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1607657782009" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1607656751640">
+    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1607661441496" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1607748695160">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607656751640" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1607656751640">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607748695160" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1607748695160">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1607656751640" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1607656751640">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1607748695160" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1607748695160">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1607656751640" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1607656751640">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1607748695160" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1607748695160">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1607656751640" />
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1607657784991">
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1607748695160" />
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1607661444342">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1607657784991" />
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1607661444342" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1607746288615">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1607746288615" />
   </component>
 </project>
