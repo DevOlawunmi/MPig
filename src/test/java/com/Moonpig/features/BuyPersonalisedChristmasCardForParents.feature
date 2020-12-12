@@ -11,3 +11,4 @@ Feature: Buy Personalised Christmas Card For Parents
     When I click on Christmas
     Then a list of Christmas card options are displayed
     And I click on Cards For Parents
+    And cards for parents are displayed
