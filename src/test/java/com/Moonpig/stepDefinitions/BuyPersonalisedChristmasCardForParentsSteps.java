@@ -1,6 +1,7 @@
 package com.Moonpig.stepDefinitions;
 
 import com.Moonpig.pages.BasePage;
+import com.Moonpig.pages.ChristmasCardForParentsPage;
 import com.Moonpig.pages.ChristmasPage;
 import com.Moonpig.pages.HomePage;
 import io.cucumber.java.en.And;
@@ -13,6 +14,7 @@ public class BuyPersonalisedChristmasCardForParentsSteps extends BasePage {
 
     HomePage homePage = PageFactory.initElements(driver, HomePage.class);
     ChristmasPage christmasPage = PageFactory.initElements(driver,ChristmasPage.class);
+    ChristmasCardForParentsPage christmasCardForParentsPage = PageFactory.initElements(driver, ChristmasCardForParentsPage.class);
     @Given("I navigate to moonpig homepage")
     public void i_navigate_to_moonpig_homepage() {
 launchURL();
