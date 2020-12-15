@@ -39,5 +39,6 @@ launchURL();
 
     @And("cards for parents are displayed")
     public void cardsForParentsAreDisplayed() {
+        christmasCardForParentsPage.assertPageTitleIsPresent();
     }
 }
